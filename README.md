@@ -1,6 +1,7 @@
 # Kubernetes Ops Playbook
 
 ``kubectl get nodes``
+
 ``kubectl cluster-info``
 ``kubectl apply -f pod.yml``
 ``kubectl get pods --watch``
