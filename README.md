@@ -25,10 +25,12 @@ describe pods hello-pod
 ```
 
 ```bash
-kubectl delete -f pod.yml```
+kubectl delete -f pod.yml
+```
 
 ```bash
-kubectl get rs```
+kubectl get rs
+```
 
 ```bash
 kubectl get deploy
