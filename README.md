@@ -1,30 +1,56 @@
 # Kubernetes Ops Playbook
 
-``kubectl get nodes``
+```bash
+kubectl get nodes
+```
 
-``kubectl cluster-info``
+```bash
+kubectl cluster-info
+```
 
-``kubectl apply -f pod.yml``
+```bash
+kubectl apply -f pod.yml
+```
 
-``kubectl get pods --watch``
+```bash
+kubectl get pods --watch
+```
 
-``kubectl get pods -o wide``
+```bash
+kubectl get pods -o wide
+```
 
-``describe pods hello-pod``
+```bash
+describe pods hello-pod
+```
 
-``kubectl delete -f pod.yml``
+```bash
+kubectl delete -f pod.yml```
 
-``kubectl get rs``
+```bash
+kubectl get rs```
 
-``kubectl get deploy``
+```bash
+kubectl get deploy
+```
 
-``kubectl get svc``
+```bash
+kubectl get svc
+```
 
-``kubectl get ep``
+```bash
+kubectl get ep
+```
 
-``kubectl rollout status deploy <name>``
+```bash
+kubectl rollout status deploy <name>
+```
 
-``kubectl rollout history deploy <name>``
+```bash
+kubectl rollout history deploy <name>
+```
 
-``kubectl rollout undo deploy <name> --to-revision=1``
+```bash
+kubectl rollout undo deploy <name> --to-revision=1
+```
 
