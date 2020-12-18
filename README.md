@@ -1,4 +1,9 @@
 # Kubernetes Ops Playbook
+
+Switch Current Cluster.
+```bash
+kubectl config use-context <cluster-name>
+```
 ---
 ```bash
 kubectl get nodes
