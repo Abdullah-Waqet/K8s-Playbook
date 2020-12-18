@@ -28,13 +28,9 @@ describe pods hello-pod
 kubectl delete -f pod.yml
 ```
 
-```bash
-kubectl get rs
-```
 
-```bash
-kubectl get deploy
-```
+
+
 
 ```bash
 kubectl get svc
@@ -42,6 +38,16 @@ kubectl get svc
 
 ```bash
 kubectl get ep
+```
+---
+# Deployment 
+## List All Deployment 
+```bash
+kubectl get deploy
+```
+## List All Replica Sets
+```bash
+kubectl get rs
 ```
 
 ```bash
