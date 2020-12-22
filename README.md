@@ -66,4 +66,7 @@ kubectl rollout history deploy <name>
 ```bash
 kubectl rollout undo deploy <name> --to-revision=1
 ```
-
+### Access Container Shell
+```bash
+kubectl -n <namespace> exec -it <pod-name> sh
+```
