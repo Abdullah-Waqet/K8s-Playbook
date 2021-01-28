@@ -66,6 +66,12 @@ kubectl rollout history deploy <name>
 ```bash
 kubectl rollout undo deploy <name> --to-revision=1
 ```
+### Read Secret
+
+```bash
+kubectl get secret <SECRET_NAME> -o jsonpath="{.data.<DATA>}" | base64 --decode
+```
+
 ### Access Container Shell
 ```bash
 kubectl -n <namespace> exec -it <pod-name> sh
