@@ -50,6 +50,11 @@ kubectl get ep
 ```bash
 kubectl get deploy
 ```
+### Restart the Doployment
+``` bash
+kubectl rollout restart deployment <deployment_name>
+
+```
 ## List All Replica Sets
 ```bash
 kubectl get rs
