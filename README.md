@@ -32,7 +32,10 @@ describe pods hello-pod
 ```bash
 kubectl delete -f pod.yml
 ```
-
+### List all images on namespace
+```bash
+kubectl get pods -o jsonpath="{..image}" |tr -s '[[:space:]]' '\n' |sort |uniq -c
+```
 
 
 
